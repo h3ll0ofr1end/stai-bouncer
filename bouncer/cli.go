@@ -77,7 +77,7 @@ func RunCli() (*Context, error) {
 	app := &cli.App{
 		Name:      "stai-bouncer",
 		Usage:     "remove unwanted connections from your Stai Node based on Geo IP Location.",
-		UsageText: "stai-bouncer [-e CHIA-EXECUTABLE] [-d DOWN-THRESHOLD] LOCATION\n\t stai-bouncer -e /stai-blockchain/venv/bin/stai -d 0.2 mars",
+		UsageText: "stai-bouncer [-e STAI-EXECUTABLE] [-d DOWN-THRESHOLD] LOCATION\n\t stai-bouncer -e /stai-blockchain/venv/bin/stai -d 0.2 mars",
 		ArgsUsage: "LOCATION",
 		Description: "Tool will lookup connections via 'stai show -c', get ip locations via geoiplookup and " +
 			"remove nodes from specified LOCATION via 'stai show -r' ",
@@ -89,7 +89,7 @@ func RunCli() (*Context, error) {
 				Aliases:     []string{"e"},
 				Required:    false,
 				DefaultText: "$HOME/stai-blockchain/venv/bin/stai",
-				Usage:       "`CHIA-EXECUTABLE`. normally located inside the bin folder of your venv directory",
+				Usage:       "`STAI-EXECUTABLE`. normally located inside the bin folder of your venv directory",
 				Destination: &staiExecutable,
 			},
 			&cli.Float64Flag{
