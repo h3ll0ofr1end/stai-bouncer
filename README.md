@@ -1,10 +1,5 @@
 # stai-bouncer
 
-[![Release](https://img.shields.io/github/v/release/St3ffn/stai-bouncer)](https://github.com/St3ffn/stai-bouncer/releases)
-[![CI](https://github.com/St3ffn/stai-bouncer/actions/workflows/ci.yml/badge.svg)](https://github.com/St3ffn/stai-bouncer/actions/workflows/ci.yml)
-[![License](https://img.shields.io/github/license/st3ffn/stai-bouncer)](/LICENSE)
-[![GO](https://img.shields.io/github/go-mod/go-version/St3ffn/stai-bouncer)](https://golang.org/)
-
 ![really](https://media.giphy.com/media/5fBH6zf7l8bxukYh74Q/giphy.gif)
 
 Tiny CLI tool to remove unwanted connections from your Stai Node based on the Geo IP Location (Country). 
