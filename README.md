@@ -1,5 +1,7 @@
 # stai-bouncer
 
+[![License](https://img.shields.io/github/license/st3ffn/chia-bouncer)](/LICENSE)
+[![GO](https://img.shields.io/github/go-mod/go-version/St3ffn/chia-bouncer)](https://golang.org/)
 
 ![STAI](https://www.station-i.de/wp-content/uploads/2021/12/stai_global_coin_logo_4c_4.0.png)
 
