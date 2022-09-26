@@ -1,7 +1,7 @@
 # stai-bouncer
 
 
-![really](https://media.giphy.com/media/5fBH6zf7l8bxukYh74Q/giphy.gif)
+![really](https://www.station-i.de/wp-content/uploads/2021/12/stai_global_coin_logo_4c_4.0.png)
 
 Tiny CLI tool to remove unwanted connections from your Stai Node based on the Geo IP Location (Country). 
 The Tool is written in golang and acts more like a command line wrapper around `stai show...`
